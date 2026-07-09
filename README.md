@@ -23,7 +23,7 @@ Como a falha impossibilita a publicação autônoma de um projeto (atividade fim
   3. When the phone verification **Modal / Popup** opens, enter a valid phone number.
   4. Click on the **Send Code** button.
 * **Expected Result:** The system should successfully send an SMS verification code to the user's phone, allowing them to proceed with identity verification smoothly without errors.
-* **Actual Result:** The system immediately returns an error message stating that the registration exceeded the maximum limit of code attempts, even if it is the user's very first attempt. The user is blocked from publishing autonomously and is forced to contact support via email for manual project approval.
+* **Actual Result:**  The system immediately returns a warning message stating: *"O limite de 10 envios do código de confirmação foi excedido."* (The limit of 10 confirmation code sends has been exceeded), even though it is the user's very first attempt. This indicates a backend or request duplication flaw that instantly exhausts the security threshold. The user is blocked from publishing autonomously and must contact support via email for manual approval.
 
 
 ---
