@@ -30,3 +30,5 @@ Como a falha impossibilita a publicação autônoma de um projeto (atividade fim
 
 ### 🔄 Workaround (Rota de Contorno Atual)
 Atualmente, a plataforma mitiga o problema de forma manual: o usuário é orientado a enviar um e-mail para o suporte técnico solicitando a liberação do projeto. O suporte realiza a aprovação interna sem a necessidade do código SMS. Embora isso permita a conclusão do fluxo, a falha crítica no componente de automatização permanece sem correção definitiva, gerando fricção e retrabalho operacional.
+
+<img width="1547" height="877" alt="screenshot bug 99freelas" src="https://github.com/user-attachments/assets/6b251e4e-0b06-4f91-b16c-b5600121e031" />
